@@ -1,0 +1,22 @@
+# Rust
+/target
+Cargo.lock
+
+# devenv
+.devenv*
+devenv.local.nix
+.direnv
+.pre-commit-config.yaml
+
+# craftee state
+.craftee/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
