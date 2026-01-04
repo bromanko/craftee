@@ -1,0 +1,17 @@
+[package]
+name = "craftee"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brian Romanko <hello@bromanko.com>"]
+description = "A terminal-based TUI for managing concurrent AI coding agents"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+# Error handling
+anyhow = "1.0"
+
+[dev-dependencies]
+
+[[bin]]
+name = "craftee"
+path = "src/main.rs"
